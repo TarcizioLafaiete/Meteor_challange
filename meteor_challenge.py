@@ -67,4 +67,5 @@ def main(name_image:str) -> None:
 
     print(f"Numero de estrelas: {num_stars} \n Numero de meteoros: {num_meteors} \n Numero de meteoros penpendiculares a agua: {num_perpendicular_meteors}")
 
-main(sys.argv[1])
+if __name__ == "__main__":
+    main(sys.argv[1])
